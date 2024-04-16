@@ -28,4 +28,4 @@ def get_insurance():
         return 'Invalid request method'
 
 if __name__ == '__main__':
-    app.run(host="localhost", port=config.port_number, debug=False)
+    app.run(host='0.0.0.0', port=config.port_number, debug=False)
